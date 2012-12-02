@@ -1,0 +1,11 @@
+name = MailControl
+description = Extends original Drupal 7 account settings page with the ability to turn off all standard mails.
+core = 7.x
+package = "Mail"
+version = "7.x-1.0"
+
+; Add any modules that we rely on.
+;dependencies[] = 
+
+; Add configuration path
+configure = admin/config/people/accounts

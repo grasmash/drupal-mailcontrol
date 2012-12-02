@@ -7,9 +7,13 @@ function mailcontrol_help($path, $arg) {
   switch ($path) {
     // Main module help for the mailcontrol module
     case 'admin/help#mailcontrol':
-      return '<p>' . t('This small module extends original Drupal 7 account settings page with the ability to turn OFF all standard mails.</br> 
-      This can be usefull when you are sending mails through some external services or for development purposes, etc.</br>  
-      You can access these settings under <a href="@conf_url">admin/config/people/accounts</a>.', array('@conf_url' => url('admin/config/people/accounts'))) . '</p>';
+      return '<p>' . t('Have 100% control over the default mails sent by Drupal 7 out of the box.</br>
+This small module extends original Drupal 7 account settings page with the ability to turn ON/OFF all standard mails.</br>
+By default Drupal 7 provides no option to disable welcome emails, account cancellation confirmation or password reset.</br>
+This can be useful when you don\'t want to send those emails, or you are sending them through some external services or just for development purposes, etc.</br>
+You can access these settings under <a href="@conf_url">admin/config/people/accounts</a>.</br>
+The module provide only interface modifications. The underlying functionality is already there by default in Drupal 7.'
+, array('@conf_url' => url('admin/config/people/accounts'))) . '</p>';
   }
 }
 

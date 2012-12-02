@@ -5,7 +5,7 @@
  */
 function mailcontrol_help($path, $arg) {
   switch ($path) {
-    // Main module help for the block module
+    // Main module help for the mailcontrol module
     case 'admin/help#mailcontrol':
       return '<p>' . t('This small module extends original Drupal 7 account settings page with the ability to turn OFF all standard mails.</br> 
       This can be usefull when you are sending mails through some external services or for development purposes, etc.</br>  
@@ -17,7 +17,6 @@ function mailcontrol_help($path, $arg) {
  * Implements hook_form_FORM_ID_alter().
  * 
  * add the enable/disable option to all standard drupal mails
- * TODO: rewrite this to be generally applicable
  */
 function mailcontrol_form_user_admin_settings_alter(&$form, &$form_state, $form_id) {
   /**

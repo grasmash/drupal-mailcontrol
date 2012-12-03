@@ -50,11 +50,11 @@ function mailcontrol_form_user_admin_settings_alter(&$form, &$form_state, $form_
     ),
   );
 
-  $form['email_admin_created']['settings'][]
+  $form['email_admin_created']['settings']['user_mail_register_admin_created_subject']
     = $form['email_admin_created']['user_mail_register_admin_created_subject'];
   unset($form['email_admin_created']['user_mail_register_admin_created_subject']);
 
-  $form['email_admin_created']['settings'][]
+  $form['email_admin_created']['settings']['user_mail_register_admin_created_body']
     = $form['email_admin_created']['user_mail_register_admin_created_body'];
   unset($form['email_admin_created']['user_mail_register_admin_created_body']);
 
@@ -76,11 +76,11 @@ function mailcontrol_form_user_admin_settings_alter(&$form, &$form_state, $form_
     ),
   );
 
-  $form['email_pending_approval']['settings'][]
+  $form['email_pending_approval']['settings']['user_mail_register_pending_approval_subject']
     = $form['email_pending_approval']['user_mail_register_pending_approval_subject'];
   unset($form['email_pending_approval']['user_mail_register_pending_approval_subject']);
 
-  $form['email_pending_approval']['settings'][]
+  $form['email_pending_approval']['settings']['user_mail_register_pending_approval_body']
     = $form['email_pending_approval']['user_mail_register_pending_approval_body'];
   unset($form['email_pending_approval']['user_mail_register_pending_approval_body']);
 
@@ -102,11 +102,11 @@ function mailcontrol_form_user_admin_settings_alter(&$form, &$form_state, $form_
     ),
   );
 
-  $form['email_no_approval_required']['settings'][]
+  $form['email_no_approval_required']['settings']['user_mail_register_no_approval_required_subject']
     = $form['email_no_approval_required']['user_mail_register_no_approval_required_subject'];
   unset($form['email_no_approval_required']['user_mail_register_no_approval_required_subject']);
 
-  $form['email_no_approval_required']['settings'][]
+  $form['email_no_approval_required']['settings']['user_mail_register_no_approval_required_body']
     = $form['email_no_approval_required']['user_mail_register_no_approval_required_body'];
   unset($form['email_no_approval_required']['user_mail_register_no_approval_required_body']);
 
@@ -128,11 +128,11 @@ function mailcontrol_form_user_admin_settings_alter(&$form, &$form_state, $form_
     ),
   );
 
-  $form['email_password_reset']['settings'][]
+  $form['email_password_reset']['settings']['user_mail_password_reset_subject']
     = $form['email_password_reset']['user_mail_password_reset_subject'];
   unset($form['email_password_reset']['user_mail_password_reset_subject']);
 
-  $form['email_password_reset']['settings'][]
+  $form['email_password_reset']['settings']['user_mail_password_reset_body']
     = $form['email_password_reset']['user_mail_password_reset_body'];
   unset($form['email_password_reset']['user_mail_password_reset_body']);
 
@@ -154,11 +154,11 @@ function mailcontrol_form_user_admin_settings_alter(&$form, &$form_state, $form_
     ),
   );
 
-  $form['email_cancel_confirm']['settings'][]
+  $form['email_cancel_confirm']['settings']['user_mail_cancel_confirm_subject']
     = $form['email_cancel_confirm']['user_mail_cancel_confirm_subject'];
   unset($form['email_cancel_confirm']['user_mail_cancel_confirm_subject']);
 
-  $form['email_cancel_confirm']['settings'][]
+  $form['email_cancel_confirm']['settings']['user_mail_cancel_confirm_body']
     = $form['email_cancel_confirm']['user_mail_cancel_confirm_body'];
   unset($form['email_cancel_confirm']['user_mail_cancel_confirm_body']);
 }

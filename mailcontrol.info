@@ -3,8 +3,5 @@ description = Extends original Drupal 7 account settings page with the ability t
 core = 7.x
 package = "Mail"
 
-; Add any modules that we rely on.
-;dependencies[] = 
-
 ; Add configuration path
 configure = admin/config/people/accounts

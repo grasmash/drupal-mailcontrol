@@ -1,7 +1,0 @@
-name = MailControl
-description = Extends original Drupal 8 account settings page with the ability to turn off all standard mails.
-core = 8.x
-package = "Mail"
-
-; Add configuration path
-configure = admin/config/people/accounts

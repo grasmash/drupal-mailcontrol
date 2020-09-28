@@ -1,0 +1,13 @@
+{
+  "name": "drupal/mailcontrol",
+  "type": "drupal-module",
+  "description": "Have 100% control over the default mails sent by Drupal 8 out of the box.",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0-or-later",
+  "homepage": "https://www.drupal.org/project/mailcontrol",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/mailcontrol",
+    "source": "http://cgit.drupalcode.org/mailcontrol"
+  }
+}
